@@ -11,6 +11,7 @@ namespace testGIT.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.abc = "abc";
             return View();
         }
     }
